@@ -1,0 +1,239 @@
+body { 
+    background-color: #996; 
+    color: black; 
+    font-family: 'Fira Sans', sans-serif;
+    font-size: .9em;
+    line-height: 130%;
+}
+
+a { color: #000099; text-decoration: none; }
+
+a:hover { background-color: #000099; color: white; }
+
+#ie-hack { text-align: center; }
+
+#content {
+    text-align: left;
+    width: 40em;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: .1em solid black;
+    background-color: white;
+    color: black;
+}
+
+.header {
+    border-top: .1em solid #ccc;
+    border-bottom: .1em solid #ccc;
+    margin: 1em;
+    background-color: #f0f0f0;
+    height: auto;
+}
+
+.header:after,
+.paper > .titleblock:after,
+.jobs .titleblock:after
+{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.header .left {
+		font-size: initial;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 4%;
+    width: 45%;
+}
+
+.header .right {
+		font-size: initial;	
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    padding: 1.1% 4% .6% 0;
+    width: 45%;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+    max-height: 11.88em;
+}
+
+.header .left td { text-align: center; }
+
+#name { 
+    font-size: 1.6em; 
+    margin-bottom: .2em;
+}
+
+#contact { }
+
+#middle { margin: 1em; }
+
+.section { margin: 1.5em 0em 1em 0em; }
+
+.section > .title {
+    margin-bottom: .3em;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.section > .title > .light {
+		opacity: 0.6;
+		font-size: .7em;
+}
+
+.section ul {
+		margin: 0em;
+		padding: 0em;
+		list-style: none;
+}
+
+.section li {
+		border-top: .1em solid #a8a8a8;
+		margin-bottom: 1em;
+		padding-top: .4em;
+}
+
+.blocks {
+		margin: .3em 0 .3em 0;
+		font-size: 1.15em;
+}
+
+.blocks a {
+		border: .1em solid #000099;
+		margin: .3em;
+		display: inline-block;
+		text-align: center;
+		min-width: 20%;
+		padding: .2em;
+}
+
+.paper { }
+
+.paper > .titleblock
+{
+	font-size: 1.15em;
+	margin: .3em 0 .3em 0;
+}
+
+.paper > .titleblock > .title {
+    display: inline-block;
+    vertical-align: top;
+    width: 79%;
+    padding: 0;
+    margin: 0;
+}
+
+.paper > .titleblock > .links {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    width: 19%;
+    padding: 0;
+    margin: 0;
+}
+
+.paper > .titleblock > .links a {
+		margin-left: .5em;
+}
+
+.jobs .titleblock {
+		font-size: 1.15em;
+}
+
+.jobs .titleblock .left {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    padding: 0;
+    margin: 0;
+}
+
+.jobs .titleblock .right {
+		font-size: initial;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    width: 49%;
+    padding: 0;
+    margin: 0;
+}
+
+.paper > .title {
+	font-size: 1.15em;
+	display: inline-block;
+}
+
+.paper > span {
+	margin: .3em 0 .3em 0;
+	display: block;
+}
+
+.paper > .links {
+		font-size: 1.15em;
+		text-align: right;
+}
+
+.paper > .links a {
+		margin-left: .5em;
+}
+
+.paper > .citation:after
+{
+	display: inline-block;
+	text-decoration: none;
+	content: ".";
+}
+
+.paper > .notes-spaced {
+  margin-top: .8em;
+}
+
+.talks span, 
+.organization span,
+.jobs span
+{
+	display: block;
+	margin: .2em 0 .2em 0;
+}
+
+.talks .title {
+	font-size: 1.15em;
+}
+
+.organization .title,
+.jobs .title
+{
+	font-size: 1.15em;
+}
+
+.talks .venue:after,
+.talks .institute:after,
+.talks .location:after,
+.talks .notes:after,
+.organization .title:after,
+.organization .venue:after,
+.organization .institute:after,
+.organization .location:after,
+.organization .notes:after,
+{
+	display: inline-block;
+	text-decoration: none;
+	content: ".";
+}
+
+#footer {
+		width: 40em;
+		max-width: 100%;
+    text-align: right;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: .3em;
+}
+
+#footer div { font-size: .8em; }
