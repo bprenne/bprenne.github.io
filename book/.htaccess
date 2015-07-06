@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName "Please authenticate"
-AuthBasicProvider file
-AuthUserFile /home/brenne/bryan.renne.org/htdocs/book/.htpasswd
-Require valid-user
