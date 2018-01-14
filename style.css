@@ -82,6 +82,11 @@ a:hover { background-color: #000099; color: white; }
     font-size: 1.3em;
 }
 
+.light {
+		opacity: 0.8;
+		font-size: .9em;
+}
+
 .section > .title > .light {
 		opacity: 0.6;
 		font-size: .7em;
@@ -125,6 +130,14 @@ a:hover { background-color: #000099; color: white; }
     display: inline-block;
     vertical-align: top;
     width: 79%;
+    padding: 0;
+    margin: 0;
+}
+
+.paper > .titleblock > .medtitle {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
